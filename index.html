@@ -28,8 +28,40 @@
                 </div>
 <div id="form-grp">
   <label for="dropdown" >Who are you?
-    <select
+    <select  id="dropdown">
+      <option value="0" >(Select one)</option>
+      <option value="1" > Student</option>
+      <option value="2"> Professional</option>
+      <option value="3"> faculty</option>
+      </select>
+      </label>
   </div>
+  <div id="form-grp">
+    <label for="radio">whats your proficiency<br> 
+ <input name="radio" id="radio" value="1" type="radio">Beginner</input><br>
+ <input name="radio" id="radio" value="2" type="radio">Amateur</input><br>
+ <input name="radio" id="radio" value="3" type="radio">Professional</input><br>
+ </label>
+     </div>
+     <div id="form-grp">
+       <label for="check">Choose your carreer
+         <input  value="1" id="check" type="checkbox">Web Development</input>
+         <input  value="2" id="check" type="checkbox">Machine learning</input>
+         <input  value="3" id="check" type="checkbox">CyberSecurity</input>
+         <input  value="4" id="check" type="checkbox">IoT</input>
+         
+         </label>
+       </div>
+       <div id="form-grp">
+         <label for="comment">Write your review
+         <textarea>
+           </textarea>
+
+         </div>
+
+         <fieldset >
+           <input id="submit" type="submit"></input>
+           </fieldset>
       </form>
     </div>
     </body>
