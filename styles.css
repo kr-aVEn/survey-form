@@ -1,0 +1,25 @@
+body{
+ font-family: "Gill Sans Extrabold", sans-serif;
+  color:white;
+  background-color:black;
+}
+#fs{
+  width:35%;
+  height:.5px
+}
+#scnd{
+  width:25%;
+  height:.5px
+}
+#title{
+font-family:Georgia, serif;
+text-align:center;
+padding-top:10px;
+padding-bottom:5px;
+}
+
+#description{
+  padding:20px;
+
+}
+
