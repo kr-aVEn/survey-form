@@ -8,9 +8,13 @@
     </head>
   <body>
     <h1 id="title">Survey Form</h1>
+    <hr id="fs">
+    <hr id="scnd">
     <p id="description">This survey form is a sample project for       completing     certificate on freecodecamp.Freecode camp helps a lot to   undestand about the complexity of html and css till now.</p>
+    <hr>
     <div id="container">
     <form id="survey-form" >
+      <fieldset class="profile">
           <div id="form-grp">
             <label id="name-label" for="name" >Name 
             <input placeholder=" Enter your name"type="text" id="name" required> 
@@ -18,12 +22,12 @@
             </div>
             <div id="form-grp">
               <label id="email-label" for="email"> Email
-                <input  placeholder="enter your email" required type="email" id="email">
+                <input  placeholder="someone@abc.com" required type="email" id="email">
                 </label>
               </div>
               <div id="form-grp">
-                <label id="number-label"for="number">Number 
-                  <input placeholder="enter phone number "type="number" min="1000000000" max="9999999999">
+                <label id="number-label"for="number">Age  
+                  <input  id="number" placeholder="20"type="number" min="16" max="99">
                   </label>
                 </div>
 <div id="form-grp">
@@ -35,7 +39,9 @@
       <option value="3"> faculty</option>
       </select>
       </label>
+
   </div>
+
   <div id="form-grp">
     <label for="radio">whats your proficiency<br> 
  <input name="radio" id="radio" value="1" type="radio">Beginner</input><br>
@@ -57,9 +63,9 @@
          <textarea>
            </textarea>
 
+
          </div>
 
-         <fieldset >
            <input id="submit" type="submit"></input>
            </fieldset>
       </form>
